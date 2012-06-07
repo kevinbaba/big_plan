@@ -159,6 +159,9 @@ void markSharp(){
 			if(!colorAsSame(colorOri, colorTar)){
 //			if(!colorAsSame2(x, y, HORIZONTAL)){
 				if(recodeing){
+					//TODO 十字交叉的地方会省略，补上
+					
+					//记录下来的点
 					for(int i=0; i<sameNum; i++){
 //						setColor2(posRecodeX[i]+1, posRecodeY[i], RGBMARK);
 						copyColor(posRecodeX[i]+1, posRecodeY[i]);
